@@ -10,9 +10,10 @@ public class ProyectoFuturoNetBeans {
         String valor1=args[1];
         String valor2 = args[2];
         System.out.println(veredicto(valor2,valor1 )); 
+        System.out.println("VICTORIA RAMIREZ GARCIA");
     }
     
-     static String veredicto(String valor1, String valor2){
+     private static String veredicto(String valor1, String valor2){
 
         if (valor1.equals(valor2)) {
             return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
